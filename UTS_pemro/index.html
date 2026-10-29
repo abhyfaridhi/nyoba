@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="GlowCare Clinic, website edukasi dan skrining awal kesehatan kulit.">
+  <title>GlowCare Clinic | Kesehatan Kulit</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <a href="#beranda" class="brand">
+    <span class="logo">G</span>
+    <span>GlowCare <small>CLINIC</small></span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">☰</button>
+
+  <nav id="navMenu">
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#layanan">Layanan</a>
+    <a href="#deteksi">Deteksi Kulit</a>
+    <a href="#edukasi">Edukasi</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="beranda">
+    <div class="hero-text">
+      <span class="eyebrow">RAWAT KULIT, RAWAT DIRI</span>
+      <h1>Kenali Kulitmu.<br><em>Rawat dengan Tepat.</em></h1>
+      <p>
+        Pelajari kesehatan kulit dan kenali kemungkinan kondisi kulit
+        berdasarkan gejala yang kamu alami.
+      </p>
+      <a href="#deteksi" class="btn">Mulai Deteksi Awal ↗</a>
+      <a href="#tentang" class="btn btn-light">Tentang Kami</a>
+      <p class="note">Informasi edukasi, bukan diagnosis medis.</p>
+    </div>
+
+    <div class="hero-visual" aria-label="Ilustrasi perawatan kulit">
+      <div class="circle"></div>
+      <div class="face">✦</div>
+      <div class="floating-card">
+        <strong>Glow naturally</strong>
+        <span>Mulai dari kebiasaan sehat</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="tentang">
+    <span class="eyebrow">TENTANG KAMI</span>
+    <h2>Perawatan kulit dimulai dari <em>pemahaman.</em></h2>
+    <p class="description">
+      GlowCare Clinic adalah website edukasi kesehatan kulit yang membantu
+      pengunjung mengenali gejala umum dan memahami pentingnya perawatan
+      kulit yang aman. Website ini dibuat oleh Abby sebagai proyek tugas.
+    </p>
+
+    <div class="cards">
+      <article class="card">
+        <div class="symbol">♡</div>
+        <h3>Peduli Kulit</h3>
+        <p>Mengenali perubahan kulit dan memahami kebutuhannya.</p>
+      </article>
+      <article class="card">
+        <div class="symbol">✦</div>
+        <h3>Edukasi Jelas</h3>
+        <p>Informasi kesehatan kulit dengan bahasa sederhana.</p>
+      </article>
+      <article class="card">
+        <div class="symbol">＋</div>
+        <h3>Utamakan Aman</h3>
+        <p>Mengetahui kapan perlu meminta bantuan dokter.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="section services" id="layanan">
+    <span class="eyebrow">LAYANAN KAMI</span>
+    <h2>Kenali Kebutuhan Kulitmu</h2>
+
+    <div class="cards">
+      <article class="card">
+        <div class="symbol">01</div>
+        <h3>Edukasi Kulit</h3>
+        <p>Informasi jerawat, iritasi, kulit kering, dan kondisi kulit umum.</p>
+        <a href="#edukasi">Pelajari →</a>
+      </article>
+      <article class="card">
+        <div class="symbol">02</div>
+        <h3>Skrining Awal</h3>
+        <p>Pilih gejala untuk memperoleh panduan informasi awal.</p>
+        <a href="#deteksi">Mulai skrining →</a>
+      </article>
+      <article class="card">
+        <div class="symbol">03</div>
+        <h3>Tips Perawatan</h3>
+        <p>Pelajari kebiasaan untuk membantu menjaga kesehatan kulit.</p>
+        <a href="#edukasi">Lihat tips →</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="section detector" id="deteksi">
+    <div class="detector-intro">
+      <span class="eyebrow">APLIKASI SKRINING AWAL</span>
+      <h2>Bagaimana Kondisi <em>Kulitmu?</em></h2>
+      <p class="description">
+        Pilih gejala yang kamu alami. Aplikasi memberikan informasi umum,
+        bukan memastikan penyakit yang kamu derita.
+      </p>
+      <div class="notice">
+        <strong>Perlu diketahui</strong>
+        <p>Hasil skrining bukan pengganti pemeriksaan tenaga kesehatan.</p>
+      </div>
+    </div>
+
+    <form id="skinForm" class="form-box">
+      <h3>1. Pilih gejala kulit</h3>
+      <p class="small">Pilih satu atau lebih gejala.</p>
+
+      <div class="symptoms">
+        <label class="symptom">
+          <input type="checkbox" name="symptom" value="jerawat">
+          <span>Jerawat atau komedo</span>
+        </label>
+        <label class="symptom">
+          <input type="checkbox" name="symptom" value="gatal">
+          <span>Gatal pada kulit</span>
+        </label>
+        <label class="symptom">
+          <input type="checkbox" name="symptom" value="merah">
+          <span>Kemerahan atau iritasi</span>
+        </label>
+        <label class="symptom">
+          <input type="checkbox" name="symptom" value="kering">
+          <span>Kulit kering atau bersisik</span>
+        </label>
+        <label class="symptom">
+          <input type="checkbox" name="symptom" value="bercak">
+          <span>Bercak atau perubahan warna</span>
+        </label>
+        <label class="symptom">
+          <input type="checkbox" name="symptom" value="nyeri">
+          <span>Nyeri atau bengkak</span>
+        </label>
+      </div>
+
+      <h3>2. Durasi gejala</h3>
+      <select name="duration" id="duration">
+        <option value="baru">Baru muncul</option>
+        <option value="minggu">Beberapa hari hingga minggu</option>
+        <option value="lama">Sudah lama atau berulang</option>
+      </select>
+
+      <button type="submit" class="btn submit-btn">
+        Lihat Informasi Awal ↗
+      </button>
+      <p id="formError" class="error" role="alert"></p>
+      <div id="result" class="result" aria-live="polite" hidden></div>
+    </form>
+  </section>
+
+  <section class="section" id="edukasi">
+    <span class="eyebrow">PUSAT EDUKASI</span>
+    <h2>Tips Menjaga Kesehatan Kulit</h2>
+
+    <div class="cards">
+      <article class="card education">
+        <div class="education-icon">☼</div>
+        <h3>Bersihkan dengan Lembut</h3>
+        <p>Gunakan pembersih yang sesuai dan hindari menggosok kulit terlalu keras.</p>
+      </article>
+      <article class="card education">
+        <div class="education-icon">☀</div>
+        <h3>Lindungi dari Matahari</h3>
+        <p>Gunakan tabir surya sesuai petunjuk dan cari tempat teduh saat terik.</p>
+      </article>
+      <article class="card education">
+        <div class="education-icon">♡</div>
+        <h3>Perhatikan Perubahan</h3>
+        <p>Periksakan keluhan yang menetap, memburuk, atau berubah tidak biasa.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div>
+      <span class="eyebrow">LANGKAH SELANJUTNYA</span>
+      <h2>Masih ragu dengan kondisi kulitmu?</h2>
+      <p>Konsultasikan keluhan kepada dokter atau tenaga kesehatan.</p>
+    </div>
+    <a class="btn btn-light" href="#deteksi">Kembali ke Skrining ↑</a>
+  </section>
+</main>
+
+<footer class="footer">
+  <a href="#beranda" class="brand">
+    <span class="logo">G</span>
+    <span>GlowCare <small>CLINIC</small></span>
+  </a>
+  <p>Website edukasi kesehatan kulit — Proyek tugas Abby.</p>
+  <div class="footer-bottom">
+    <span>© <span id="year"></span> GlowCare Clinic</span>
+    <span>Bukan pengganti diagnosis dokter.</span>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>
